@@ -23,7 +23,7 @@ void stats_add(struct Stats *s, int x)
 
     if (x > s->max) s->max = x;
     if (x < s->min) s->min = x;
-};
+}
 
 int main(void)
 {
